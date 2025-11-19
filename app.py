@@ -6,7 +6,7 @@ from datetime import datetime
 class ExpenseApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("💸 Expense Tracker - Sohely Edition")
+        self.title("💸 Expense Tracker")
         self.geometry("700x550")
         self.resizable(False, False)
 
