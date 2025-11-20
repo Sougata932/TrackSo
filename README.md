@@ -89,11 +89,8 @@ Editable & deletable entries
 
 Light/Dark mode toggle
 
-**🤝 Contributors**
+
+**👩‍💻 Authors**
 
 Sohely Das and Sougata Mondal
 
-
-👩‍💻 Author
-
-Sohely Das
