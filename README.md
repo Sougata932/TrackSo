@@ -1,105 +1,99 @@
-💸 **Expense Tracker – TrackSo**
+**💸 Expense Tracker – TrackSo**
 
-A simple, clean, and modern Streamlit-based Expense Tracker that allows you to quickly add, view, and download your daily expenses.
-This project is created as a Python Semester Project using Streamlit + Pandas.
+A simple, clean, and user-friendly Streamlit-based Expense Tracker that helps users record, manage, and analyze their day-to-day expenses visually.
 
-🚀 **Features**
+🔗 Live App: https://trackso.streamlit.app/
 
-✅ Add Expenses Easily
-Enter amount, category, and description
-Auto-stored with timestamp
+📦 Tech Stack: Python, Streamlit, Pandas, Custom CSS UI
 
-**📊 **View Expense History****
+**📘 Project Overview**
 
-Displays your expense list in a beautiful, interactive table
+The Expense Tracker – Sohely Edition is a lightweight web app built using Streamlit that allows users to add daily expenses, categorize them, store them during their session, view expense history, calculate total spent, and download their data as a CSV file.
 
-Shows all saved entries for the entire session
+This project is created as a Python Semester Project and focuses on clean UI, smooth functionality, and beginner-friendly code structure.
 
-Categories: Food, Travel, Shopping, Bills, Other
+**⭐ Features**
+➕ Add New Expenses
+
+Enter amount
+
+Choose category (Food, Travel, Shopping, Bills, Other)
+
+Add an optional description
+
+Automatically records date & time
+
+**📊 View Expense History**
+
+Shows all expenses in a professional table format
+
+Responsive and styled dataframe
 
 **💰 Total Expense Calculation**
 
-Automatically calculates and displays the total money spent
+Automatically calculates and displays the total amount spent
 
-📥 Download as CSV
+**📥 Export Expenses**
 
-Export your expenses with one click
+Download all expenses in CSV format with one click
 
-File: expenses.csv
+**🎨 Modern UI/UX**
 
-**🎨 Modern UI with Custom CSS**
+Dark theme
 
-Neon-themed dark UI
+Neon cyan highlights
 
-Styled buttons, cards, table view
+Custom CSS-based cards and buttons
 
-Fully responsive layout
+Completely mobile-friendly
 
 **🛠️ Tech Stack**
 Component	Technology
-Frontend UI	Streamlit + HTML/CSS
-Backend Logic	Python
+Frontend	Streamlit UI, Custom CSS
+Backend	Python
 Data Handling	Pandas
-Storage	Streamlit Session State
-Output	CSV Download
-📂 Project Structure
-📦 Expense-Tracker
-│
-├── app.py        # Main Streamlit Application
-├── requirements.txt  # Required Python dependencies
-└── README.md     # Documentation
+Storage	Streamlit session_state
+Deployment	Streamlit Cloud
 
-▶️ How to Run This Project
+🚀 How to Run Locally
+1️⃣ Clone the repository
 
-1️⃣ Install Dependencies
-
-Make sure Python is installed.
-Then install required libraries:
+2️⃣ Install dependencies
 
 pip install streamlit pandas
 
-2️⃣ Run the Streamlit App
+**3️⃣ Run the App**
 streamlit run app.py
 
-App will open in your browser automatically.
+Your app will open in the browser automatically.
 
-**📸 Features Explained**
-Add Expense Section
+**🌐 Live Deployment**
 
-Inputs for amount, category, description
+The project is deployed using Streamlit Cloud.
 
-Adds into st.session_state memory
+🔗 Live Link: https://trackso.streamlit.app/
 
-Clean notification on successful entry
+**📈 Future Improvements**
 
-Expense Dashboard
+Here are some features planned to be added:
 
-A pandas DataFrame displayed using st.dataframe()
+Persistent storage with database (SQLite / Firebase)
 
-Realtime summary calculation
+Category-wise graphs (Pie chart / Bar chart)
 
-Download button to save expense data locally
+Login & user-specific data
 
-**📁 Data Storage Logic**
+Monthly report generation
 
-All expenses are stored temporarily inside:
+Editable & deletable entries
 
-st.session_state.expenses
+Light/Dark mode toggle
 
-This means data resets when page reloads—perfect for simple projects or demos.
-
-**⭐ Future Improvements** 
-
-Add charts for spending visualization
-
-Save data permanently using SQLite
-
-Add login system
-
-Monthly category-wise analysis
-
-Export PDF report
-
-**🧑‍💻 Author**
+**🤝 Contributors**
 
 Sohely Das and Sougata Mondal
+
+
+👩‍💻 Author
+
+Sohely Das
